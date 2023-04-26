@@ -16,9 +16,7 @@ To create the dataset, I have used the following packages:<br><br>
 4- Pillow         version 9.4.0  <br>
 5- Cupy           version 11.4.0 <br>
 
-Please notice that it is always recommended to have short practice with hyperspy and temul packages, like what is a signal, or data structure types in hyperspy, or what one can do in temul package. Here is the link for the packages to get a deeper insight into their potential and use cases for the microscopy community. Many thanks to the developers of these open-source, powerful packages.   
+### Available Files
 
-https://hyperspy.org/hyperspy-doc/v1.6/index.html <br>
-https://temul-toolkit.readthedocs.io/en/latest/index.html  <br><br>
 
 In the end, I wish to get feedback on what should be improved or what can be added to give value to someone. As I am occupied with other things, I have not had enough time to go through the details and whether all images are ok or not.
