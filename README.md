@@ -6,7 +6,7 @@ The objective of this project is to provide a simple tool for those who work wit
 ### Introduction
 The definition of the crystal categories might not be very accurate in this code, because depending on the crystal structure, orientation, and contrast of the atoms, there might be some overlapping of different categories. This can be further explored when one trains a deep learning model e.g. using vgg pretrained architect which I dedicate another repository for that. Therefore, this code is a guide for those who are interested in building their own lattices and they have to customize and test different parameters accordingly.  <br>
 In the code, one can create images with different noise levels, introduce scanning distortion, change the atom size mimicking the atomic radii of elements in the material, change the contrast of the atoms to simulate the use of different detectors like HAADF or ABF, also the camera length might change the contrast of the atoms in the image. By the end, I have converted images to png format, with the type of uni8 and normalized to [0 , 1] range, only because of other tools I was using these images for. Of course, it is easy to save images in different formats. In some point, I have used cupy instead of numpy as it works better for parallel computing when you have access to multile core computation facility.  
-
+The jupyter notebook file is called, random_lattice_dataset, a bit strange name, but it was just a conceptual idea to investigate different deep learning architecture like vgg, ResNet, Inception etc on high-resolution STEM images. That is why I just created some lattices to have some difference in their crystal structure.  
 
 ### Used Packages
 To create the dataset, I have used the following packages:<br><br>
